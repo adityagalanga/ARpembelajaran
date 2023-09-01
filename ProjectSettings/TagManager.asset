@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - TargetTouchText
+  - TargetRotate
   layers:
   - Default
   - TransparentFX
@@ -12,8 +13,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - TargetText
+  - TargetRotate
   - 
   - 
   - 
