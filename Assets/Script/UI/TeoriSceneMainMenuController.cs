@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuController : MonoBehaviour
+public class TeoriSceneMainMenuController : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,15 +14,11 @@ public class MainMenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
-    public void GoToARScene()
+    public void GoToMainMenu()
     {
-        SceneManager.LoadScene("ARScene");
-    }
-    public void GoToTeoriScene()
-    {
-        SceneManager.LoadScene("TeoriScene");
+        SceneManager.LoadScene("MainMenu");
     }
 }
