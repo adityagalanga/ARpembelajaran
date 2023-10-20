@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9272364460c956459f29257ccff746d, type: 3}
+  m_Name: TempatKawat
+  m_EditorClassIdentifier: 
+  ID: 2
+  PopupTitle: Gulungan Kawat
+  PopupTexture: {fileID: 2800000, guid: c019ef5fac3303840922c89dc9421f30, type: 3}
+  PopupText: "Tempat kawat las digulung, biasanya gulungan ini dimasukkan kedalam
+    alat yang bernama wire feeder. Untuk diameter kawat las GMAW antara o,6 sampai
+    1,6 mm. Yang umum digunakan biasanya 0,8-1,2 mm\r"

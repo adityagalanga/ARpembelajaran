@@ -4,41 +4,42 @@ using UnityEngine;
 
 public class TouchManager : MonoBehaviour
 {
-    private const float HoldTime = 0.1f;
+    private const float HoldTime = 0.15f;
     private float currentTime = 0;
 
     private int TextLayer = 6;
     private int RotateLayer = 7;
 
     private Vector3 LastPosition;
-    private bool _triggeredHold = false;
-    private bool OnCheck = false;
+    public bool _triggeredHold = false;
+    public bool OnCheck = false;
+    public bool OnTrigger = false;
+    public PopupObjectMarker popupObjectMarker;
 
     private TargetRotate CurrentTargetRotate;
 
     void Update()
     {
 
-
 #if UNITY_EDITOR
         if (Input.GetMouseButtonDown(0))
         {
-            OnCheck = true;
-            _triggeredHold = false;
-            currentTime = 0;
+            currentTime = Time.time;
             LastPosition = Input.mousePosition;
+            _triggeredHold = false;
         }
 
         if (Input.GetMouseButton(0))
         {
             LastPosition = Input.mousePosition;
-            currentTime += Time.deltaTime;
 
-            if (currentTime >= HoldTime && !_triggeredHold)
+            if (Time.time - currentTime >= HoldTime && !_triggeredHold)
             {
                 _triggeredHold = true;
                 OnHoldInit();
             }
+
+            OnCheck = true;
         }
         else
         {
@@ -55,24 +56,25 @@ public class TouchManager : MonoBehaviour
                     _triggeredHold = false;
                 }
 
+                _triggeredHold = false;
                 OnCheck = false;
             }
         }
 
 #elif UNITY_ANDROID
+
         if (Input.touchCount == 1)
         {
             if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 OnCheck = true;
                 _triggeredHold = false;
-                currentTime = 0;
+                currentTime = Time.time;
             }
 
             LastPosition = Input.GetTouch(0).position;
-            currentTime += Time.deltaTime;
 
-            if (currentTime >= HoldTime && !_triggeredHold)
+            if (Time.time - currentTime >= HoldTime && !_triggeredHold)
             {
                 _triggeredHold = true;
                 OnHoldInit();
@@ -124,6 +126,7 @@ public class TouchManager : MonoBehaviour
 
     private void CheckTarget(Vector3 Position,bool isTap)
     {
+        if (popupObjectMarker.gameObject.activeInHierarchy) { return; }
         Ray ray = Camera.main.ScreenPointToRay(Position);
         RaycastHit hit;
         if (isTap)
@@ -133,7 +136,7 @@ public class TouchManager : MonoBehaviour
             {
                 if (hit.transform.tag == "TargetTouchText")
                 {
-                    hit.transform.GetComponent<TargetTextController>().ShowText();
+                    popupObjectMarker.ShowPopupData(hit.transform.GetComponent<TouchTargetPopup>().ObjectTarget);
                 }
             }
         }
@@ -150,4 +153,15 @@ public class TouchManager : MonoBehaviour
             }
         }
     }
+}
+
+[System.Serializable]
+public enum ObjectLasID
+{
+    regulator,
+    tabung,
+    tempatkawat,
+    wirefeeder,
+    weldinggun,
+    tangmasa
 }

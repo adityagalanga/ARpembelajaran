@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9272364460c956459f29257ccff746d, type: 3}
+  m_Name: Regulator
+  m_EditorClassIdentifier: 
+  ID: 0
+  PopupTitle: Regulator
+  PopupTexture: {fileID: 2800000, guid: f8de40f91a4855b478ab60d455366bd3, type: 3}
+  PopupText: "Regulator Gas GMAW memiliki fungsi untuk mengalirkan GAS yang dipakai
+    untuk melakukan pengelasan. Pada gambar regulator diatas regulator memiliki komponennya
+    sendiri, diantaranya:\n1.CGA \u2013 580 Male Inlet\r\nBerfungsi untuk menyambungkan
+    antara regulator dengan tabung gas yang dipakai untuk pengelasan.\r\n2.Gas Adjusment\r\nBerfungsi
+    untuk memberi tanda gas apa yang di pakai untuk proses pengelasan.\r\n3.Pressure
+    Gauge\r\nBerfungsi untuk memberi informasi ketersediaan gas di dalam tabung.\r\n4.Flow
+    Meter\r\nBerfungsi sebagai alat pemberi informasi seberapa besar tekanan gas
+    yang keluar untuk proses pengelasan.\r\n5.Flow Control\r\nBerfungsi untuk mengatur
+    besaran gas yang keluar dari tabung gas.\r\n6.Outter Fitting\r\nBerfungsi sebagai
+    tempat penyambung selang gas yang terhubung ke mesin las GMAW.\r\n7.Selang Gas\r\nBerfungsi
+    menyalurkan gas dari tabung yang telah diatur oleh regulator untuk proses pengelasan.\r\n"

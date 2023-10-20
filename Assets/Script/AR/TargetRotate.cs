@@ -19,7 +19,7 @@ public class TargetRotate : MonoBehaviour
         {
 #if UNITY_EDITOR
             var touch = Input.mousePosition;
-            float deltaX = -(Input.mousePosition.x - prevX) * speedRotation;
+            float deltaX = (Input.mousePosition.x - prevX) * speedRotation;
             float deltaY = (Input.mousePosition.y - prevY) * speedRotation;
 
            
@@ -35,7 +35,7 @@ public class TargetRotate : MonoBehaviour
 
 #elif UNITY_ANDROID
             var touch = Input.touches[0];
-            var deltaX = -(touch.position.x - prevX) * speedRotation;
+            var deltaX = (touch.position.x - prevX) * speedRotation;
             var deltaY = (touch.position.y - prevY) * speedRotation;
 
             //Vector3 rot = TargetObject.transform.rotation.eulerAngles + new Vector3(deltaX, deltaY, 0f); //use local if your char is not always oriented Vector3.up
@@ -48,12 +48,6 @@ public class TargetRotate : MonoBehaviour
             prevX = touch.position.x;
             prevY = touch.position.y;
 #endif
-        }
-        else
-        {
-            Quaternion currentRotation = TargetObject.transform.rotation;
-            Quaternion wantedRotation = TargetObject.transform.parent.transform.rotation;
-            TargetObject.transform.rotation = Quaternion.RotateTowards(currentRotation, wantedRotation, Time.deltaTime * 120f);
         }
     }
 

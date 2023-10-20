@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9272364460c956459f29257ccff746d, type: 3}
+  m_Name: Bersungsi
+  m_EditorClassIdentifier: 
+  ID: 5
+  PopupTitle: Tang Masa
+  PopupTexture: {fileID: 2800000, guid: a66a5c08a63448446aed236608be2953, type: 3}
+  PopupText: Berfungsi sebagai fungsi sumbu negative yang di jepitkan di benda kerja
+    untuk mengalirkan aliran listrik.
