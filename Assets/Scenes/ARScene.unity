@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -155.375}
-  m_SizeDelta: {x: 394.33, y: 110.75}
+  m_AnchoredPosition: {x: 439.1169, y: -150.005}
+  m_SizeDelta: {x: 446.1, y: 100.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &12608717
 MonoBehaviour:
@@ -182,15 +182,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Regulator
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -292,7 +292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -660.75}
+  m_AnchoredPosition: {x: 439.1169, y: -650.01}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &151200433
@@ -459,8 +459,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1239.16}
-  m_SizeDelta: {x: 840, y: 256.82}
+  m_AnchoredPosition: {x: 439.1169, y: -1232.375}
+  m_SizeDelta: {x: 778.2338, y: 264.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249528679
 MonoBehaviour:
@@ -486,15 +486,15 @@ MonoBehaviour:
     yang bernama wire feeder. Untuk diameter kawat las GMAW antara o,6 sampai 1,6
     mm. Yang umum digunakan biasanya 0,8-1,2 mm\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 32
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -595,8 +595,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1265.035}
-  m_SizeDelta: {x: 840, y: 308.57}
+  m_AnchoredPosition: {x: 439.1169, y: -1259.84}
+  m_SizeDelta: {x: 778.2338, y: 319.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300632218
 MonoBehaviour:
@@ -622,15 +622,15 @@ MonoBehaviour:
     dan didekatkan pada benda kerja dapat menimbulkan nyala busur las.\r\nDalam welding
     gun ini memiliki komponen diantaranya \r:\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -731,8 +731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1213.29}
-  m_SizeDelta: {x: 840, y: 205.08}
+  m_AnchoredPosition: {x: 439.1169, y: -1204.91}
+  m_SizeDelta: {x: 778.2338, y: 209.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329647675
 MonoBehaviour:
@@ -757,15 +757,15 @@ MonoBehaviour:
   m_text: "Wire Feeder didalamnya terdapat pengatur motor penarik, ampere, dan voltase
     yang berfungsi untuk mengatur kecepatan keluarnya kawat las.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 32
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1249,7 +1249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -660.75}
+  m_AnchoredPosition: {x: 439.1169, y: -650.01}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &517594189
@@ -1342,7 +1342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -660.75}
+  m_AnchoredPosition: {x: 439.1169, y: -650.01}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &528985730
@@ -1482,14 +1482,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9607844, g: 0.5254902, b: 0.20392159, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1542,7 +1542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -660.75}
+  m_AnchoredPosition: {x: 439.1169, y: -650.01}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &669712093
@@ -1634,8 +1634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1860.425}
-  m_SizeDelta: {x: 840, y: 1499.35}
+  m_AnchoredPosition: {x: 439.1169, y: -1922.515}
+  m_SizeDelta: {x: 778.2338, y: 1645.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &701187532
 MonoBehaviour:
@@ -1669,15 +1669,15 @@ MonoBehaviour:
     tempat penyambung selang gas yang terhubung ke mesin las GMAW.\r\n7.Selang Gas\r\nBerfungsi
     menyalurkan gas dari tabung yang telah diatur oleh regulator untuk proses pengelasan.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1949,8 +1949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -733.78503}
-  m_SizeDelta: {x: 940, y: 1467.5701}
+  m_AnchoredPosition: {x: 439.1169, y: -732.37}
+  m_SizeDelta: {x: 878.2338, y: 1464.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802335487
 MonoBehaviour:
@@ -2026,8 +2026,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -155.375}
-  m_SizeDelta: {x: 305.48, y: 110.75}
+  m_AnchoredPosition: {x: 439.11688, y: -150.005}
+  m_SizeDelta: {x: 333.15, y: 100.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905020321
 MonoBehaviour:
@@ -2051,15 +2051,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tabung
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2082,7 +2082,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2160,8 +2160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -155.375}
-  m_SizeDelta: {x: 680.4, y: 110.75}
+  m_AnchoredPosition: {x: 439.1169, y: -150.005}
+  m_SizeDelta: {x: 747.55, y: 100.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &931647347
 MonoBehaviour:
@@ -2185,15 +2185,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gulungan Kawat
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2216,7 +2216,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2295,7 +2295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1869.3201}
+  m_AnchoredPosition: {x: 439.1169, y: -1869.67}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954297409
@@ -2387,8 +2387,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1265.035}
-  m_SizeDelta: {x: 840, y: 308.57}
+  m_AnchoredPosition: {x: 439.1169, y: -1259.84}
+  m_SizeDelta: {x: 778.2338, y: 319.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963794027
 MonoBehaviour:
@@ -2414,15 +2414,15 @@ MonoBehaviour:
     tabung gas berwarna biru biasanya berisi gas CO2.  Pada bagian atas tabung gas
     terdapat tuas untuk membuka dan menutup aliran gas yang ada di dalam tabung gas.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2446,7 +2446,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 32
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2613,8 +2613,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -2473.605}
-  m_SizeDelta: {x: 840, y: 308.57}
+  m_AnchoredPosition: {x: 439.1169, y: -2506.9648}
+  m_SizeDelta: {x: 778.2338, y: 374.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &972956660
 MonoBehaviour:
@@ -2650,15 +2650,15 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2682,7 +2682,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2849,8 +2849,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -155.375}
-  m_SizeDelta: {x: 496.92, y: 110.75}
+  m_AnchoredPosition: {x: 439.11688, y: -150.005}
+  m_SizeDelta: {x: 567.33, y: 100.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &979185717
 MonoBehaviour:
@@ -2874,15 +2874,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Wire Feeder
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2905,7 +2905,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3203,8 +3203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1363.9451}
-  m_SizeDelta: {x: 940, y: 2727.8901}
+  m_AnchoredPosition: {x: 439.1169, y: -1397.13}
+  m_SizeDelta: {x: 878.2338, y: 2794.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169927876
 MonoBehaviour:
@@ -3283,8 +3283,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1355.05}
-  m_SizeDelta: {x: 940, y: 2710.1}
+  m_AnchoredPosition: {x: 439.1169, y: -1422.51}
+  m_SizeDelta: {x: 878.2338, y: 2845.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212029290
 MonoBehaviour:
@@ -3786,8 +3786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -707.915}
-  m_SizeDelta: {x: 940, y: 1415.83}
+  m_AnchoredPosition: {x: 439.1169, y: -704.905}
+  m_SizeDelta: {x: 878.2338, y: 1409.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585438112
 MonoBehaviour:
@@ -4023,7 +4023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -660.75}
+  m_AnchoredPosition: {x: 439.1169, y: -650.01}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641546929
@@ -4115,8 +4115,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -155.375}
-  m_SizeDelta: {x: 447.08, y: 110.75}
+  m_AnchoredPosition: {x: 439.11694, y: -150.005}
+  m_SizeDelta: {x: 490.15, y: 100.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1683053704
 MonoBehaviour:
@@ -4140,15 +4140,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tang Masa
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4171,7 +4171,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4377,8 +4377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -682.04}
-  m_SizeDelta: {x: 940, y: 1364.08}
+  m_AnchoredPosition: {x: 439.1169, y: -677.44}
+  m_SizeDelta: {x: 878.2338, y: 1354.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777595960
 MonoBehaviour:
@@ -4454,8 +4454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -1187.415}
-  m_SizeDelta: {x: 840, y: 153.33}
+  m_AnchoredPosition: {x: 439.1169, y: -1177.4451}
+  m_SizeDelta: {x: 778.2338, y: 154.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839229085
 MonoBehaviour:
@@ -4480,15 +4480,15 @@ MonoBehaviour:
   m_text: Berfungsi sebagai fungsi sumbu negative yang di jepitkan di benda kerja
     untuk mengalirkan aliran listrik.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4512,7 +4512,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 32
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4735,8 +4735,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -759.66003}
-  m_SizeDelta: {x: 940, y: 1519.3201}
+  m_AnchoredPosition: {x: 439.1169, y: -759.835}
+  m_SizeDelta: {x: 878.2338, y: 1519.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962392594
 MonoBehaviour:
@@ -4812,8 +4812,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -155.375}
-  m_SizeDelta: {x: 541.55, y: 110.75}
+  m_AnchoredPosition: {x: 439.1169, y: -150.005}
+  m_SizeDelta: {x: 591.7, y: 100.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2001455000
 MonoBehaviour:
@@ -4837,15 +4837,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Welding Gun
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
-  m_sharedMaterial: {fileID: 1552063753328564337, guid: 5ec2c2925f92571498d0b2ec190289fe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
+  m_sharedMaterial: {fileID: -7295355866697124406, guid: 2ddd4f7710799544bbd4c6e895a4bd45, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4868,7 +4868,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5072,7 +5072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -660.75}
+  m_AnchoredPosition: {x: 439.1169, y: -650.01}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2113454380
